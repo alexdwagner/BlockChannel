@@ -1,0 +1,218 @@
+body{
+  display: block;
+  height: inherit;
+  margin: 0;
+}
+
+.story {
+/*  width: 100vw;*/
+/*  height:100vh;*/
+/*  padding: 10px;*/
+  margin: 0;
+/*  position: relative;*/
+  font-family: 'Roboto' sans-serif;
+/*  border: 2px solid green;*/
+ }
+
+/*.box{
+    border: 2px solid green;
+}*/
+
+ .notes {
+    line-height: 1em;
+ }
+
+ .book-block {
+      padding: 0px 0px !important;
+ }
+
+ #grid{
+/*  border: 2px solid red;*/
+
+ }
+
+#first {
+  background: url(../images/landing_background.png);
+  height: 300px;
+}
+
+#first article img{
+  width: 15%;
+  height: 15%;
+  position: relative;
+}
+
+#first article {
+  width: 100%;
+/*  border: 1px solid red;*/
+  position: absolute;
+  top: calc(23% - 7%);
+  text-align: center;
+}
+
+#second article {
+    color: #525252;
+    background: #fff;
+}
+
+#second #intro{
+  width: 100%;
+/*  height: 300px;*/
+  text-align: center;
+}
+
+#second #intro p{
+  margin: 110px;
+  font-family: 'Roboto';
+  font-size: 1.4em;
+  color:#51BFED;
+  line-height: 1.53em;
+}
+
+#third{      
+  color: #fff;
+  padding: 50px 50px;
+/*  margin: 100px 0 0 60%;*/
+  line-height: 1.5em;
+  color: #525252;
+  top: 0;
+/*  box-shadow: 0 0 25px rgba(0,0,0,0.3);*/
+  background: #51bfed;
+  border-radius: 3px; 
+  font-family: 'Roboto';
+}
+
+#third article{      
+  color: #fff;
+  padding: 50px 50px;
+/*  margin: 100px 0 0 60%;*/
+/*  line-height: 1.5em;*/
+  color: #525252;
+  top: 0;
+/*  box-shadow: 0 0 25px rgba(0,0,0,0.3);*/
+/*  background: #51bfed;*/
+  border-radius: 3px; 
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+
+#third .photograph {
+  min-height: 1000px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  margin: 0 auto;
+}
+
+
+/* Educational Resources */
+#fourth{      
+  color: #fff;
+  padding: 50px 50px;
+/*  margin: 100px 0 0 60%;*/
+  line-height: 1.5em;
+  color: #525252;
+  top: 0;
+/*  box-shadow: 0 0 25px rgba(0,0,0,0.3);*/
+  background: #525252;
+  border-radius: 3px; 
+  font-family: 'Roboto';
+
+}
+
+#fourth article{      
+  color: #fff;
+  padding: 50px 50px;
+/*  margin: 100px 0 0 60%;*/
+/*  line-height: 1.5em;*/
+  color: #525252;
+  top: 0;
+/*  box-shadow: 0 0 25px rgba(0,0,0,0.3);*/
+/*  background: #51bfed;*/
+  border-radius: 3px; 
+  font-family: 'Roboto';
+  font-size: 17px;
+/*  display: flex;*/
+}
+
+
+/* Additional Resources */
+#fifth{      
+  padding: 50px 50px;
+  background: #6b6fa1;
+  font-size: 17px;
+}
+
+#fifth article{      
+  color: #fff;
+  padding: 50px 50px;
+/*  margin: 100px 0 0 60%;*/
+/*  line-height: 1.5em;*/
+  color: #525252;
+  top: 0;
+/*  box-shadow: 0 0 25px rgba(0,0,0,0.3);*/
+/*  background: #51bfed;*/
+  border-radius: 3px; 
+  font-family: 'Roboto';
+}
+
+article h2 {
+    font-size: 48px;
+    line-height: 1em;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+ }
+
+h1 {
+
+  font-size: 18px;
+  font-weight:bold;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: 'Roboto' sans-serif;
+}
+
+footer {
+  position: relative;
+  width: 90.33%;
+  height: 200px;
+  background:#70E593;
+
+  color: #fff;
+  padding: 50px 50px;
+  line-height: 1.5em;
+  color: #525252;
+  font-family: 'Roboto';
+
+  display: inline-flex;
+}
+
+footer #connect{
+  width: 75%;
+  height: 100%;
+  text-align: left;
+/*  border: 1px solid red;*/
+  display: inline-grid;
+}
+
+footer #qr-code{
+  width: 25%;
+/*  border: 1px solid green;*/
+/*  vertical-align: right;*/
+  display: inline-grid;
+}
+
+.w3-row{
+  width: 50%;
+  height: 50%;
+/*  border: 2px solid red;*/
+  height: 49%;
+  display: inline-block;
+  position: relative;
+/*  padding: 25px 25px;*/
+}
